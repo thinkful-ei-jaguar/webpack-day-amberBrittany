@@ -4,7 +4,8 @@
   "description": "Created for the Thinkful EI Program.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -26,9 +27,4 @@
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
   }
-},
-
-"scripts": {
-  "start": "webpack-dev-server", 
-  "build": "webpack --mode production"
 }
